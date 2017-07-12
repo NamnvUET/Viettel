@@ -1,0 +1,61 @@
+@media (min-width: 1200px){
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .header-crump{
+    .crump{
+      .crump-component{
+        .crump1{
+          font-size: 15px;
+          padding-top: 15px;
+        }
+        .crump2, .crump3, .crump4{
+          span{
+            font-size: 12px;
+          }
+        }
+        .circle{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 480px) and (max-width: 767px){
+  .header-crump{
+    .crump{
+      .crump-component{
+        .crump1{
+          font-size: 15px;
+          padding-top: 15px;
+        }
+        .crump2, .crump3, .crump4 {
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 479px){
+  .header-crump{
+    .crump{
+      .crump-component{
+        .crump1{
+          font-size: 15px;
+          padding-top: 15px;
+          width: 30%;
+        }
+        .crump2, .crump3, .crump4 {
+          width: 20%;
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

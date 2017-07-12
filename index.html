@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viettel</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!--Font Roboto Google API-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--My CSS-->
+    <link rel="stylesheet" href="./scss/style.css">
+    <!--Media Query-->
+    <link rel="stylesheet" href="./scss/mediaquery.css">
+    <!--FontAwesome Icon CSS-->
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./image/logo_viettel.png" alt="logo_item">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p>Bạn đã có tài khoản? <a href="">Đăng nhập</a></p>
+                    </li>
+                    <li>
+                        <i class="img-circle fa fa-phone my-icon"></i>
+                        <span id="phone">18008098</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <!--Breadcum-->
+    <div class="header-crump">
+        <div class="crump">
+            <div class="crump-component">
+                <a class="crump1" href="#"><i class="fa fa-chevron-left fa-authi"></i><span>Xác nhận yêu cầu</span></a>
+            </div>
+            <div class="crump-component">
+                <!--<button class="btn btn-link"></button>-->
+                <a class="crump2" href="#">
+                    <div class="circle img-circle complete"><i class="fa fa-check"></i></div>
+                    <span class="text-crump">Lựa chọn dịch vụ</span>
+                </a>
+            </div>
+            <div class="crump-component">
+                <a class="crump3" href="#">
+                    <div class="circle img-circle active">2</div>
+                    <span class="text-crump">Gửi yêu cầu</span>
+                </a>
+            </div>
+            <!--<div class="line1"></div>-->
+            <div class="crump-component">
+                <a href="#" class="crump4">
+                    <div class="circle img-circle">3</div>
+                    <span class="text-crump">Hoàn thành</span>
+                </a>
+                <!--<div class="line2"></div>-->
+            </div>
+        </div>
+    </div>
+    <!--End Breadcum-->
+    <!--Main Content-->
+    <section class="container">
+        <div class="row">
+            <div class="contact-form col-sm-8">
+                <form action="#">
+                    <!--Customer Info Table-->
+                    <table class="table customer-info my-table">
+                        <thead>
+                            <tr>
+                                <th><h4><strong>Thông tin khách hàng</strong></h4></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-xs-8 col-xs-offset-2  my-input">
+                                        <input class="input-group form-control" required>
+                                        <span class="placeholder" data-placeholder="Họ và tên"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-xs-8 col-xs-offset-2  my-input id-input">
+                                        <input class="input-group form-control" required>
+                                        <span class="placeholder" data-placeholder="Số CMT"></span>
+                                        <span class="img-circle fa fa-question my-icon form-control-feedback"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-xs-8 col-xs-offset-2  my-input">
+                                        <input class="input-group form-control" required>
+                                        <span class="placeholder" data-placeholder="SDT liên hệ"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-xs-8 col-xs-offset-2">
+                                        <input class="input-group form-control" placeholder="Email" required>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--End Customer Info Table-->
+                    <!--Installation Address Table-->
+                    <table class="table address-info my-table">
+                        <thead>
+                            <tr>
+                                <th><h4><strong>Địa chỉ lắp đặt</strong></h4></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-sm-8 col-xs-10 col-sm-offset-2 col-xs-offset-1 my-input">
+                                        <input class="input-group form-control" required>
+                                        <span class="placeholder" data-placeholder="Họ tên người nhận"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-sm-8 col-xs-10 col-sm-offset-2 col-xs-offset-1 my-input">
+                                        <input class="input-group form-control" required>
+                                        <span class="placeholder" data-placeholder="SĐT liên hệ"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-sm-8 col-xs-10 col-sm-offset-2 col-xs-offset-1">
+                                        <div class="row">
+                                            <div class="col-xs-4">
+                                                <select name="tinh" id="tinh" class="form-control input-group my-select">
+                                                    <option value="Tỉnh" selected>Tỉnh</option>
+                                                    <option value="Hà Nội">Hà Nội</option>
+                                                    <option value="Hải Dương">Hải Dương</option>
+                                                    <option value="Nam Định">Nam Định</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-4 style-select">
+                                                <select name="huyen" id="huyen" class="form-control input-group my-select">
+                                                    <option value="Tỉnh" selected>Huyện</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-4 style-select">
+                                                <select class="form-control input-group my-select">
+                                                    <option value="Tỉnh" selected>Xã</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="input-group col-sm-8 c0l-xs-10 col-sm-offset-2 col-xs-offset-1 my-input">
+                                        <input class="input-group form-control" required>
+                                        <span class="placeholder" data-placeholder="Địa chỉ chi tiết"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- End Installation Address Table-->
+                    <div class="col-sm-8 col-sm-offset-2 text-center">
+                         <button type="submit" class="btn btn-success" id="btn-submit">GỬI YÊU CẦU</button>
+                    </div>
+                </form>
+            </div>
+            <!-- Choose-service-->
+            <div class="col-sm-4 choose-service">
+                <table class="table my-table">
+                    <thead>
+                        <tr>
+                            <th><h4><strong>Dịch vụ đăng ký</strong></h4></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="./image/icon1.png" alt="internet_icon">
+                                <span>Internet cáp quang</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="./image/icon_lap.png" alt="tv_icon">
+                                <span>Truyền hình</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- End Choose Service-->
+        </div>
+    </section>
+    <!--End Main Content-->
+    <!-- Service Infomation-->
+    <section class="service_info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 fast-delivery">
+                    <img src="./image/giaohang.png">
+                    <span>GIAO HÀNG NHANH</span>
+                    <p>Thời gian giao hàng</p>
+                    <ul>
+                        <li>Khu vực nội thành Hà Nội: 24h</li>
+                        <li>Khu vực ngoại thành Hà Nội: 36h</li>
+                        <li>Các khu vực tỉnh/thành phố còn lại: 4 - 5 ngày (không tính chủ nhật và ngày nghỉ lễ)</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 fast-delivery">
+                    <img src="./image/giaohang.png">
+                    <span>THANH TOÁN TIỆN</span>
+                    <p>Tùy chọn thanh toán tiền mặt, chuyển khoản, thanh toán qua thẻ hoặc internet banking</p>
+                </div>
+                <div class="col-sm-4 fast-delivery">
+                    <img src="./image/giaohang.png">
+                    <span>MẠNG LƯỚI RỘNG</span>
+                    <p>Mạng lưới viettel phủ khắp cả nước</p>
+                    <a href="#">Danh sách CHTT Viettel</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service Infomation-->
+    <!-- Pay Infomation-->
+    <section class="pay_info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 pay-type">
+                    <h4><strong>CÁCH THỨC THANH TOÁN</strong></h4>
+                    <img src="./image/master.png" alt="master card">
+                    <img src="./image/visa_3.png" alt="visa card">
+                    <img src="./image/bank.png" alt="bank card">
+                </div>
+                <div class="col-sm-4 delivery-service">
+                    <h4><strong>DỊCH VỤ GIAO HÀNG</strong></h4>
+                    <img src="./image/viettel-post.png" alt="viettelpost">
+                </div>
+                <div class="col-sm-4 certificate">
+                    <h4><strong>CHỨNG NHẬN</strong></h4>
+                    <img src="./image/bct.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Pay Infomation-->
+</body>
+</html>
