@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,iDAAiD;EAE7C,uBAAQ;IACN,WAAW,EAAE,GAAG;AAItB,gDAAgD;EAE5C,uBAAQ;IACN,WAAW,EAAE,IAAI;AAIvB,gDAAgD;EAE5C,uBAAQ;IACN,WAAW,EAAE,IAAI;AAIvB,yBAAyB;EAErB,uBAAQ;IACN,OAAO,EAAE,IAAI;EAEf,8BAAe;IACb,KAAK,EAAE,IAAI",
+"sources": ["TraTruoc_mediaquery.scss"],
+"names": [],
+"file": "TraTruoc_mediaquery.css"
+}

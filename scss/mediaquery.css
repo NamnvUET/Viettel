@@ -1,25 +1,14 @@
 @media (min-width: 768px) and (max-width: 991px) {
-  .header-crump .crump .crump-component .crump1 {
-    font-size: 15px;
-    padding-top: 15px; }
-  .header-crump .crump .crump-component .crump2 span, .header-crump .crump .crump-component .crump3 span, .header-crump .crump .crump-component .crump4 span {
-    font-size: 12px; }
-  .header-crump .crump .crump-component .circle {
-    margin-right: 5px; } }
+  .style-select {
+    padding: 15px;
+    width: 100%; } }
 @media (min-width: 480px) and (max-width: 767px) {
-  .header-crump .crump .crump-component .crump1 {
-    font-size: 15px;
-    padding-top: 15px; }
-  .header-crump .crump .crump-component .crump2 span, .header-crump .crump .crump-component .crump3 span, .header-crump .crump .crump-component .crump4 span {
-    display: none; } }
+  .style-select {
+    padding: 15px;
+    width: 100%; } }
 @media (max-width: 479px) {
-  .header-crump .crump .crump-component .crump1 {
-    font-size: 15px;
-    padding-top: 15px;
-    width: 30%; }
-  .header-crump .crump .crump-component .crump2, .header-crump .crump .crump-component .crump3, .header-crump .crump .crump-component .crump4 {
-    width: 20%; }
-    .header-crump .crump .crump-component .crump2 span, .header-crump .crump .crump-component .crump3 span, .header-crump .crump .crump-component .crump4 span {
-      display: none; } }
+  .style-select {
+    padding: 15px;
+    width: 100%; } }
 
 /*# sourceMappingURL=mediaquery.css.map */

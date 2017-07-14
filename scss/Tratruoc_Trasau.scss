@@ -1,0 +1,94 @@
+@mixin my-icon($color,$padding-top,$margin-right){
+  height: 28px;
+  background-color: $color;
+  width: 28px;
+  text-align: center;
+  padding-top: $padding-top;
+  margin-right: $margin-right;
+}
+
+body{
+  font-family: Roboto;
+}
+
+nav{
+  min-height: 50px !important;
+  background: #ffffff;
+  .navbar-right{
+    li{
+      padding-top: 14px;
+      display: block;
+      margin-right: 40px;
+      line-height: 26px;
+      font-size: 18px;
+    }
+    span{
+      font-weight: bold;
+      color: #61a29e;
+    }
+    .my-icon{
+      @include my-icon(#61a29e,7px,5px);
+      color: white;
+    }
+    #phone{
+      color: #61a29e;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
+//Breadcumb
+.my-breadcrumb{
+  margin-top: 50px;
+  padding-top: 12px;
+  min-height: 50px;
+  background-color: #f3f3f3;
+  border-top: 3px solid #e5e5e5;
+  .confirm{
+    color: #61a29e;
+  }
+  .stepwizard-row {
+    display: table-row;
+    .stepwizard-step{
+      display: table-cell;
+      text-align: center;
+      position: relative;
+
+      &:before{
+        top: 14px;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 100%;
+        margin-left: 15px;
+        height: 2px;
+        background-color: #ccc;
+        z-order: 0;
+      }
+      .step-content{
+        background-color: #f3f3f3;
+        span{
+          font-size: 15px;
+          display: inline-block;
+        }
+      }
+      .step-one i{
+          @include my-icon(#3db660,8px,5px);
+          color: white;
+      }
+      .step-two i{
+        @include my-icon(#61a29e,7px,5px);
+        color: white;
+      }
+      .last-step i{
+        color: black;
+        @include my-icon(#ffffff,7px,5px);
+      }
+      &:last-child{
+        &:before{
+          display: none;
+        }
+      }
+    }
+  }
+}

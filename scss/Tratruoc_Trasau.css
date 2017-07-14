@@ -1,0 +1,85 @@
+body {
+  font-family: Roboto; }
+
+nav {
+  min-height: 50px !important;
+  background: #ffffff; }
+  nav .navbar-right li {
+    padding-top: 14px;
+    display: block;
+    margin-right: 40px;
+    line-height: 26px;
+    font-size: 18px; }
+  nav .navbar-right span {
+    font-weight: bold;
+    color: #61a29e; }
+  nav .navbar-right .my-icon {
+    height: 28px;
+    background-color: #61a29e;
+    width: 28px;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 5px;
+    color: white; }
+  nav .navbar-right #phone {
+    color: #61a29e;
+    font-weight: bold;
+    font-size: 20px; }
+
+.my-breadcrumb {
+  margin-top: 50px;
+  padding-top: 12px;
+  min-height: 50px;
+  background-color: #f3f3f3;
+  border-top: 3px solid #e5e5e5; }
+  .my-breadcrumb .confirm {
+    color: #61a29e; }
+  .my-breadcrumb .stepwizard-row {
+    display: table-row; }
+    .my-breadcrumb .stepwizard-row .stepwizard-step {
+      display: table-cell;
+      text-align: center;
+      position: relative; }
+      .my-breadcrumb .stepwizard-row .stepwizard-step:before {
+        top: 14px;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 100%;
+        margin-left: 15px;
+        height: 2px;
+        background-color: #ccc;
+        z-order: 0; }
+      .my-breadcrumb .stepwizard-row .stepwizard-step .step-content {
+        background-color: #f3f3f3; }
+        .my-breadcrumb .stepwizard-row .stepwizard-step .step-content span {
+          font-size: 15px;
+          display: inline-block; }
+      .my-breadcrumb .stepwizard-row .stepwizard-step .step-one i {
+        height: 28px;
+        background-color: #3db660;
+        width: 28px;
+        text-align: center;
+        padding-top: 8px;
+        margin-right: 5px;
+        color: white; }
+      .my-breadcrumb .stepwizard-row .stepwizard-step .step-two i {
+        height: 28px;
+        background-color: #61a29e;
+        width: 28px;
+        text-align: center;
+        padding-top: 7px;
+        margin-right: 5px;
+        color: white; }
+      .my-breadcrumb .stepwizard-row .stepwizard-step .last-step i {
+        color: black;
+        height: 28px;
+        background-color: #ffffff;
+        width: 28px;
+        text-align: center;
+        padding-top: 7px;
+        margin-right: 5px; }
+      .my-breadcrumb .stepwizard-row .stepwizard-step:last-child:before {
+        display: none; }
+
+/*# sourceMappingURL=Tratruoc_Trasau.css.map */
