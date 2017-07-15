@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="./scss/mediaquery.css">
     <link rel="stylesheet" href="./Xacnhanyeucau_Thongtingoicuoc_Mediaquery.css">
     <!--My JS-->
-    <script src="Xacnhanyeucau_Thongtingoicuoc.js"></script>
+    <script src="node_modules/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+    <script src="./Xacnhanyeucau_Thongtingoicuoc.js"></script>
     <!--FontAwesome Icon CSS-->
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
@@ -71,7 +72,18 @@
                     <div class="row">
                         <div class="col-xs-12 title-item">
                             <div class="row">
-                                <span>Gói Tomato</span>
+                                <div class="col-md-2 col-sm-4 text-center title">
+                                    <span>Gói Tomato</span>
+                                </div>
+                                <div class="col-md-3 col-sm-4 text-center rating">
+                                    <select id="example">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xs-12">

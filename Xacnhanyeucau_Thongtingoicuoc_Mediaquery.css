@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+  .modal-content .introduction .title-item .title, .modal-content .introduction .title-item .rating {
+    text-align: left; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .modal-content .introduction .title-item .title, .modal-content .introduction .title-item .rating {
+    text-align: left; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .modal-admin {
     width: 700px; }
