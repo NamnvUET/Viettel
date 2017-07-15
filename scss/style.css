@@ -28,8 +28,15 @@ nav {
     font-weight: bold;
     font-size: 20px; }
 
+.main-content {
+  margin-top: 70px; }
+
 .contact-form {
   padding-bottom: 70px; }
+  .contact-form .customer-info .label-group {
+    text-align: right; }
+  .contact-form .customer-info .character-span {
+    color: red; }
   .contact-form .my-icon {
     height: 28px;
     background-color: #61a29e;
@@ -56,28 +63,6 @@ nav {
       height: 45px;
       padding-left: 15px;
       font-size: 18px; }
-
-.my-input {
-  display: inline-block;
-  position: relative; }
-  .my-input input {
-    background: transparent;
-    border: 1px solid #dddddd;
-    height: 45px; }
-  .my-input input:valid + .placeholder {
-    display: none; }
-  .my-input .placeholder {
-    position: absolute;
-    top: 11px;
-    left: 15px;
-    z-index: -1;
-    font-size: 18px; }
-  .my-input .placeholder::before {
-    content: attr(data-placeholder);
-    color: #999; }
-  .my-input .placeholder::after {
-    content: " *";
-    color: tomato; }
 
 .my-select {
   border: 1px solid #dddddd;
@@ -107,26 +92,36 @@ nav {
 .service_info {
   background-color: #f3f3f3;
   padding-top: 40px;
-  padding-bottom: 40px; }
-  .service_info .fast-delivery img {
-    width: 75px;
-    padding-bottom: 15px; }
-  .service_info .fast-delivery span {
-    font-size: 20px;
-    font-weight: bold;
+  padding-bottom: 35px; }
+  .service_info .fast-delivery img, .service_info .pay-convenient img, .service_info .wide-network img {
+    padding: 0px 15px 7px 0px; }
+  .service_info .fast-delivery span, .service_info .pay-convenient span, .service_info .wide-network span {
+    font-size: 22px;
+    font-weight: normal;
+    display: inline-block; }
+  .service_info .fast-delivery p, .service_info .pay-convenient p, .service_info .wide-network p {
+    font-size: 13px;
+    margin-bottom: 5px; }
+  .service_info .fast-delivery ul, .service_info .pay-convenient ul, .service_info .wide-network ul {
+    font-size: 13px;
     padding-left: 15px; }
+    .service_info .fast-delivery ul li, .service_info .pay-convenient ul li, .service_info .wide-network ul li {
+      margin-top: 2px; }
+  .service_info .wide-network a {
+    text-decoration: none; }
+    .service_info .wide-network a:hover {
+      color: #f79420; }
 
 .pay_info {
   min-height: 300px; }
-  .pay_info .pay-type img {
+  .pay_info .list-image img {
     height: 30px;
     margin-right: 10px; }
-  .pay_info .delivery-service img {
-    width: 60%; }
   .pay_info .certificate img {
     height: 55px; }
   .pay_info h4 {
-    padding: 35px 15px 5px 15px; }
+    padding-top: 35px;
+    padding-bottom: 5px; }
 
 .header-crump {
   margin-top: 70px;

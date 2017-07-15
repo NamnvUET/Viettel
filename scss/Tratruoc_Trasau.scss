@@ -92,3 +92,135 @@ nav{
     }
   }
 }
+//Content
+//.contact-form{
+//  padding-bottom: 70px;
+//  .customer-info{
+//    .label-group{
+//      text-align: right;
+//    }
+//    .character-span{
+//      color: red;
+//    }
+//  }
+//  .my-icon{
+//    height: 28px;
+//    background-color: #61a29e;
+//    width: 28px;
+//    text-align: center;
+//    color: white;
+//    padding-top: 5px;
+//    margin-right: 15px;
+//    top: 10px;
+//  }
+//}
+
+//.my-table{
+//  border: 1px solid #dddddd;
+//  thead{
+//    tr{
+//      th{
+//        padding-left: 15px;
+//      }
+//    }
+//  }
+//  tbody{
+//    tr{
+//      td{
+//        border-top: none;
+//        padding: 5px;
+//      }
+//    }
+//    tr:first-child{
+//      td{
+//        padding-top: 20px;
+//      }
+//    }
+//    tr:last-child{
+//      td{
+//        input{
+//          border: 1px solid #dddddd;
+//          height: 45px;
+//          padding-left: 15px;
+//          font-size: 18px;
+//        }
+//        padding-bottom: 20px;
+//      }
+//    }
+//  }
+//}
+
+//Panel
+.panel{
+  border-radius: 0;
+  .panel-heading{
+    background-color: #ffffff;
+  }
+}
+.label-group{
+  text-align: right;
+  label{
+    font-weight: normal;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .character-span{
+    color: red;
+  }
+}
+//SERVICE
+.service_info{
+  background-color: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  .fast-delivery, .pay-convenient, .wide-network{
+    img{
+      padding: 0px 15px 7px 0px;
+    }
+    span{
+      font-size: 22px;
+      font-weight: normal;
+      display: inline-block;
+    }
+    p{
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+    ul{
+      font-size: 13px;
+      padding-left: 15px;
+      li{
+        margin-top: 2px;
+      }
+    }
+  }
+  .wide-network{
+    a{
+      text-decoration: none;
+      &:hover{
+        color: #f79420;
+      }
+    }
+  }
+}
+//PAY INFO
+.pay_info{
+  min-height: 300px;
+  .list-image{
+    img{
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+  .delivery-service{
+  }
+  .certificate{
+    img{
+      height: 55px;
+    }
+  }
+  h4{
+    padding-top: 35px;
+    padding-bottom: 5px;
+  }
+}

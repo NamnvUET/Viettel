@@ -1,23 +1,52 @@
 @media (min-width: 1200px){
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network {
+      text-align: left;
+    }
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px){
-
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network{
+      text-align: left;
+    }
+  }
 }
 @media (min-width: 768px) and (max-width: 991px){
-  .style-select{
-    padding: 15px;
-    width: 100%;
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network{
+      p,ul{
+        display: none;
+      }
+    }
   }
 }
 @media (min-width: 480px) and (max-width: 767px){
-  .style-select{
-    padding: 15px;
-    width: 100%;
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network{
+      span{
+        font-size: 12px;
+        display: inherit;
+      }
+      p,ul{
+        display: none;
+      }
+    }
   }
 }
-@media (max-width: 479px){
-  .style-select{
-    padding: 15px;
-    width: 100%;
+
+@media (max-width: 479px) {
+  .service_info {
+    .fast-delivery, .pay-convenient, .wide-network {
+      span{
+        font-size: 10px;
+      }
+      p, ul {
+        display: none;
+      }
+    }
+  }
+  .pay_info{
+    display: none;
   }
 }

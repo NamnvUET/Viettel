@@ -1,16 +1,25 @@
+@media (min-width: 1200px) {
+  .service_info .fast-delivery, .service_info .pay-convenient, .service_info .wide-network {
+    text-align: left; } }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .my-breadcrumb .confirm {
-    padding-top: 8px; } }
+  .service_info .fast-delivery, .service_info .pay-convenient, .service_info .wide-network {
+    text-align: left; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .my-breadcrumb .confirm {
-    padding-top: 17px; } }
+  .service_info .fast-delivery p, .service_info .fast-delivery ul, .service_info .pay-convenient p, .service_info .pay-convenient ul, .service_info .wide-network p, .service_info .wide-network ul {
+    display: none; } }
 @media (min-width: 480px) and (max-width: 767px) {
-  .my-breadcrumb .confirm {
-    padding-top: 15px; } }
+  .service_info .fast-delivery span, .service_info .pay-convenient span, .service_info .wide-network span {
+    font-size: 12px;
+    display: inherit; }
+  .service_info .fast-delivery p, .service_info .fast-delivery ul, .service_info .pay-convenient p, .service_info .pay-convenient ul, .service_info .wide-network p, .service_info .wide-network ul {
+    display: none; } }
 @media (max-width: 479px) {
-  .my-breadcrumb .confirm {
+  .service_info .fast-delivery span, .service_info .pay-convenient span, .service_info .wide-network span {
+    font-size: 10px; }
+  .service_info .fast-delivery p, .service_info .fast-delivery ul, .service_info .pay-convenient p, .service_info .pay-convenient ul, .service_info .wide-network p, .service_info .wide-network ul {
     display: none; }
-  .my-breadcrumb .stepwizard-row {
-    float: none; } }
+
+  .pay_info {
+    display: none; } }
 
 /*# sourceMappingURL=TraTruoc_mediaquery.css.map */

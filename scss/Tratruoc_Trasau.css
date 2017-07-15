@@ -82,4 +82,52 @@ nav {
       .my-breadcrumb .stepwizard-row .stepwizard-step:last-child:before {
         display: none; }
 
+.panel {
+  border-radius: 0; }
+  .panel .panel-heading {
+    background-color: #ffffff; }
+
+.label-group {
+  text-align: right; }
+  .label-group label {
+    font-weight: normal;
+    padding-top: 5px;
+    display: inline-block; }
+  .label-group .character-span {
+    color: red; }
+
+.service_info {
+  background-color: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 35px; }
+  .service_info .fast-delivery img, .service_info .pay-convenient img, .service_info .wide-network img {
+    padding: 0px 15px 7px 0px; }
+  .service_info .fast-delivery span, .service_info .pay-convenient span, .service_info .wide-network span {
+    font-size: 22px;
+    font-weight: normal;
+    display: inline-block; }
+  .service_info .fast-delivery p, .service_info .pay-convenient p, .service_info .wide-network p {
+    font-size: 13px;
+    margin-bottom: 5px; }
+  .service_info .fast-delivery ul, .service_info .pay-convenient ul, .service_info .wide-network ul {
+    font-size: 13px;
+    padding-left: 15px; }
+    .service_info .fast-delivery ul li, .service_info .pay-convenient ul li, .service_info .wide-network ul li {
+      margin-top: 2px; }
+  .service_info .wide-network a {
+    text-decoration: none; }
+    .service_info .wide-network a:hover {
+      color: #f79420; }
+
+.pay_info {
+  min-height: 300px; }
+  .pay_info .list-image img {
+    height: 30px;
+    margin-right: 10px; }
+  .pay_info .certificate img {
+    height: 55px; }
+  .pay_info h4 {
+    padding-top: 35px;
+    padding-bottom: 5px; }
+
 /*# sourceMappingURL=Tratruoc_Trasau.css.map */

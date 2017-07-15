@@ -1,34 +1,74 @@
 @media (min-width: 1200px){
-
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network {
+      text-align: left;
+    }
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px){
-  .my-breadcrumb{
-    .confirm{
-      padding-top: 8px;
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network{
+      text-align: left;
     }
   }
+  //.my-breadcrumb{
+  //  .confirm{
+  //    padding-top: 8px;
+  //  }
+  //}
 }
 @media (min-width: 768px) and (max-width: 991px){
-  .my-breadcrumb{
-    .confirm{
-      padding-top: 17px;
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network{
+      p,ul{
+        display: none;
+      }
     }
   }
+  //.my-breadcrumb{
+  //  .confirm{
+  //    padding-top: 17px;
+  //  }
+  //}
 }
 @media (min-width: 480px) and (max-width: 767px){
-  .my-breadcrumb{
-    .confirm{
-      padding-top: 15px;
+  //.my-breadcrumb{
+  //  .confirm{
+  //    padding-top: 15px;
+  //  }
+  //}
+  .service_info{
+    .fast-delivery, .pay-convenient, .wide-network{
+      span{
+        font-size: 12px;
+        display: inherit;
+      }
+      p,ul{
+        display: none;
+      }
     }
   }
 }
 @media (max-width: 479px){
-  .my-breadcrumb{
-    .confirm{
-      display: none;
+  //.my-breadcrumb{
+  //  .confirm{
+  //    display: none;
+  //  }
+  //  .stepwizard-row{
+  //    float: none;
+  //  }
+  //}
+  .service_info {
+    .fast-delivery, .pay-convenient, .wide-network {
+      span{
+        font-size: 10px;
+      }
+      p, ul {
+        display: none;
+      }
     }
-    .stepwizard-row{
-      float: none;
-    }
+  }
+  .pay_info{
+    display: none;
   }
 }

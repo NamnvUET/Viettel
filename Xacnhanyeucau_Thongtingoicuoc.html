@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viettel</title>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!--Bootstrap JS-->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <!--Font Roboto Google API-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--My CSS-->
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="Xacnhanyeucau_Thongtingoicuoc.css">
+    <!--Media Query-->
+    <link rel="stylesheet" href="./scss/mediaquery.css">
+    <link rel="stylesheet" href="./Xacnhanyeucau_Thongtingoicuoc_mediaquery.css">
+    <!--My JS-->
+    <script src="Xacnhanyeucau_Thongtingoicuoc.js"></script>
+    <!--FontAwesome Icon CSS-->
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./image/logo_viettel.png" alt="logo_item">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <p>Bạn đã có tài khoản? <a href="">Đăng nhập</a></p>
+                </li>
+                <li>
+                    <i class="img-circle fa fa-phone my-icon"></i>
+                    <span id="phone">18008098</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--End Navbar-->
+<!--Breadcum-->
+<section class="my-breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="confirm col-xs-2">
+                <i class="fa fa-chevron-left"></i>
+            </div>
+            <div class="stepwizard-row col-xs-10">
+                <div class="row">
+                    <div class="stepwizard-step col-xs-4">
+                        <div class="col-xs-8 step-content">
+                            <div class="step-one row">
+                                <i class="fa fa-check img-circle"></i>
+                                <span>Xác nhận OTP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stepwizard-step col-xs-4">
+                        <div class="col-xs-8 step-content">
+                            <div class="step-two row">
+                                <i class="fa img-circle">2</i>
+                                <span>Gửi yêu cầu</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stepwizard-step col-xs-4">
+                        <div class="col-xs-8 step-content">
+                            <div class="last-step row">
+                                <i class="fa img-circle">3</i>
+                                <span>Hoàn thành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Breadcum-->
+<!--Content-->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg modal-admin" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Chi tiết gói cước</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid introduction">
+                    <div class="row">
+                        <div class="col-xs-12 title-item">
+                            <div class="row">
+                                <span>Gói Tomato</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="row">
+                                        <img src="./images/tomato.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 content-item">
+                                    <h3>Gioi thieu</h3>
+                                    <div class="content-text">
+                                        Gói cước Tomato là gói cưới đại chúng nhất của Viettel, đặc biệt dành cho nhóm khách hàng mong muốn
+                                        sử dụng điện thoai di động nhưng ít có nhu cầu gọi mà nghe là chủ yếu .Gói cước không giới hạn thời gian sử dụng,
+                                        với mức cước hàng tháng bằng không.
+                                        Giá cước
+                                        -Giá cước thoại nội
+                                        -Giá cước thoại nội
+                                        -Giá cước thoại nội
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid tab-menu">
+                    <div class="row">
+                        <ul class="nav nav-tabs text-center" role="tablist">
+                            <li role="presentation" class="tab_li active"><a href="#nav_tab1" aria-controls="home" role="tab" data-toggle="tab">Giới thiệu</a></li>
+                            <li role="presentation" class="tab_li"><a href="#nav_tab2" aria-controls="profile" role="tab" data-toggle="tab">Giá cước</a></li>
+                            <li role="presentation" class="tab_li"><a href="#nav_tab3" aria-controls="messages" role="tab" data-toggle="tab">Chuyển đổi gói cước</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="nav_tab1">
+                                <div class="container-fluild">
+                                    What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    What is Lorem Ipsum?
+                                    What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    What is Lorem Ipsum?
+                                    What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="nav_tab2">
+
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="nav_tab3">gggg..</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Content-->
+</body>
+</html>
